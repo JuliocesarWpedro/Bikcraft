@@ -1,0 +1,61 @@
+.vantagens-bg {
+  background-color: var(--cor-12);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.vantagens-itens {
+  margin-top: 30px;
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
+.vantagens-itens-1 {
+  display: flex;
+}
+
+.vantagens-itens-2 {
+  display: flex;
+}
+.vantagens-itens-1 div {
+  width: 33%;
+  margin-right: 25px;
+}
+.vantagens-itens-1 div:nth-child(3) {
+  margin-right: 0;
+}
+.vantagens-itens-2 div:nth-child(3) {
+  margin-right: 0;
+}
+.vantagens-itens-2 div {
+  width: 33%;
+  margin-right: 25px;
+}
+.vantagens-itens h3 {
+  margin: 10px 0px;
+}
+.vantagens-itens img {
+  margin-top: 30px;
+}
+
+@media (max-width:800px) {
+  .vantagens-bg {
+    display: flex;
+  }
+
+  .vantagens-texto {
+    text-align: center;
+  }
+  .vantagens-itens-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .vantagens-itens-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
