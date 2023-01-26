@@ -43,9 +43,6 @@ function eventosPerguntas(pergunta) {
 }
 
 perguntas.forEach(eventosPerguntas);
-
-console.log(perguntas);
-
 // Galeria de bicicletas
 
 const galeria = document.querySelectorAll(".bicicleta-imagens img");
@@ -66,3 +63,31 @@ function eventosGaleria(img) {
 }
 
 galeria.forEach(eventosGaleria);
+
+
+const conteudo = document.querySelector(".conteudo-news");
+const icone = document.querySelector(".icone-display-news");
+const opacidade = document.querySelector(".opacidade-news");
+const abertura = document.querySelector(".background-news");
+const bgFlex = document.querySelector(".conteudo-geral");
+const fecharBackground = document.querySelector(".background-news");
+
+
+
+function abrir() {
+  conteudo.classList.add("mostrar");
+  abertura.classList.add("mostrar");
+}
+bgFlex.addEventListener("click", abrir);
+
+
+function fechar() {
+  conteudo.classList.remove("mostrar");
+  abertura.classList.remove("mostrar");
+}
+
+
+icone.addEventListener('click', fechar);
+fecharBackground.addEventListener('click', fechar);
+
+
