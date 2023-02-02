@@ -67,8 +67,7 @@ galeria.forEach(eventosGaleria);
 
 const conteudo = document.querySelector(".conteudo-news");
 const icone = document.querySelector(".icone-display-news");
-const opacidade = document.querySelector(".opacidade-news");
-const abertura = document.querySelector(".background-news");
+const background = document.querySelector(".background-news");
 const bgFlex = document.querySelector(".conteudo-geral");
 const fecharBackground = document.querySelector(".background-news");
 
@@ -76,14 +75,14 @@ const fecharBackground = document.querySelector(".background-news");
 
 function abrir() {
   conteudo.classList.add("mostrar");
-  abertura.classList.add("mostrar");
+  background.classList.add("mostrar");
 }
 bgFlex.addEventListener("click", abrir);
 
 
 function fechar() {
   conteudo.classList.remove("mostrar");
-  abertura.classList.remove("mostrar");
+  background.classList.remove("mostrar");
 }
 
 
