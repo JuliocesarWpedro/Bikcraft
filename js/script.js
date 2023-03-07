@@ -50,12 +50,11 @@ const galeriaContainer = document.querySelector(".bicicleta-imagens div img");
 
 function trocarImagem(event) {
   const img = event.currentTarget;
-  const media = matchMedia('(min-width: 600px)').matches;
+  const media = matchMedia("(min-width: 600px)").matches;
   const srcImg = img.getAttribute("src");
-  if(media) {
+  if (media) {
     galeriaContainer.setAttribute("src", srcImg);
   }
-
 }
 
 function eventosGaleria(img) {
@@ -64,29 +63,22 @@ function eventosGaleria(img) {
 
 galeria.forEach(eventosGaleria);
 
+const modal = document.querySelector(".conteudo-news");
+const iconeFechar = document.querySelector(".icone-display-news");
+const backgroundModal = document.querySelector(".background-news");
+const conteudoGeral = document.querySelector(".conteudo-geral");
+const buttonEnviar = document.querySelector(".botao-news");
+const body = document.querySelector("body");
 
-const conteudo = document.querySelector(".conteudo-news");
-const icone = document.querySelector(".icone-display-news");
-const background = document.querySelector(".background-news");
-const bgFlex = document.querySelector(".conteudo-geral");
-const fecharBackground = document.querySelector(".background-news");
-
-
-
-function abrir() {
-  conteudo.classList.add("mostrar");
-  background.classList.add("mostrar");
-}
-bgFlex.addEventListener("click", abrir);
-
-
-function fechar() {
-  conteudo.classList.remove("mostrar");
-  background.classList.remove("mostrar");
+if (localStorage.getItem("openModalNews") === null) {
+  backgroundModal.style.display = "flex";
+  modal.style.display = "flex";
 }
 
+function removerModal() {
+  backgroundModal.style.display = "none";
+  modal.style.display = "none";
+  localStorage.setItem("openModalNews", "open");
+}
 
-icone.addEventListener('click', fechar);
-fecharBackground.addEventListener('click', fechar);
-
-
+iconeFechar.addEventListener("click", removerModal);

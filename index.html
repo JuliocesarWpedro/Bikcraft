@@ -18,11 +18,11 @@
 </head>
 
 <body>
-  <div class="conteudo-geral">
+  <div id="conteudo-geral" class="conteudo-geral">
     <header class="header-bg">
       <div class="header container">
         <a href="./">
-          <img src="./img/bikcraft.svg" alt="Bikcraft">
+          <img class="logo" src="./img/bikcraft.svg" alt="Bikcraft">
         </a>
 
         <nav aria-label="primaria">
@@ -43,7 +43,7 @@
           <a class="botao" href="./bicicletas.html">Escolha a sua</a>
         </div>
         <div>
-          <img src="./img/fotos/introducao.jpg" alt="Bicicleta elétrica preta.">
+          <img src="./img/fotos/introducao.jpg" class="imagem-1" alt="Bicicleta elétrica preta.">
         </div>
       </div>
     </main>
@@ -215,15 +215,19 @@
     </footer>
   </div>
 
-  <div id="background-news" class="background-news"> </div>
-  <div id="modal-news" class="conteudo-news">
-    <div class="icone-display-news"><button class="icone-news">X</button></div>
-    <h1 class="font-1-xxl cor-0">Bem vindo!</h1>
-    <p>Quer conhecer as novidades e receber descontos exclusivos?</p>
-    <span>Deixe seu email na continuação</span>
-    <input type="email" name="email" placeholder="Coloque seu E-mail" required="required" aria-required="true">
-    <button class="botao-news">Enviar</button>
+  <div id="background-news" class="background-news">
+    <div id="modal-news" class="conteudo-news">
+      <div id="icone-display-news"  class="icone-display-news"><button class="icone-news">X</button></div>
+      <h1 class="font-1-xxl cor-0">Bem vindo!</h1>
+      <p>Quer conhecer as novidades e receber descontos exclusivos?</p>
+      <span>Deixe seu email na continuação</span>
+      <form>
+        <input class="input" type="email" name="email" placeholder="Coloque seu E-mail" required="required" aria-required="true">
+        <input type="submit" class="botao-news" value="Enviar">
+      </form>
+    </div>
   </div>
+
 
   <script src="./js/script.js"></script>
 </body>
