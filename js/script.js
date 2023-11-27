@@ -9,10 +9,8 @@ function ativarLink(link) {
     link.classList.add("ativo");
   }
 }
-
 links.forEach(ativarLink);
 
-// Ativar itens do Orçamento
 
 const parametros = new URLSearchParams(location.search);
 
