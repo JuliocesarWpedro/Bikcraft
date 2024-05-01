@@ -408,7 +408,7 @@ footer a:hover {
   width: 18px;
   height: 10px;
   margin-left: 12px;
-  background: url(../Img/icones/seta.svg);
+  background: url(../img/icones/seta.svg);
   transition: transform 0.2s;
 }
 
@@ -1321,7 +1321,7 @@ footer a:hover {
   display: inline-block;
   width: 13px;
   height: 9px;
-  background-image: url("../Img/icones/lista.svg");
+  background-image: url("../img/icones/lista.svg");
   position: absolute;
   left: -21px;
 }
@@ -1465,7 +1465,7 @@ footer a:hover {
   display: inline-block;
   width: 14px;
   height: 6px;
-  background: url(../Img/icones/seta-abrir.svg);
+  background: url(../img/icones/seta-abrir.svg);
   transition: 0.3s;
 }
 
@@ -1534,7 +1534,7 @@ footer a:hover {
 .contato-endereço {
   margin-bottom: 32px;
   padding-left: 28px;
-  background: url("../Img/icones/local.svg") no-repeat 0 2px;
+  background: url("../img/icones/local.svg") no-repeat 0 2px;
 }
 
 .contato-endereço p {
@@ -1553,7 +1553,7 @@ footer a:hover {
 }
 
 .contato-meios a:first-child {
-  background: url("../Img/icones/email.svg") no-repeat 0 2px;
+  background: url("../img/icones/email.svg") no-repeat 0 2px;
 }
 
 .contato-meios a:nth-child(2) {
@@ -1561,7 +1561,7 @@ footer a:hover {
 }
 
 .contato-meios-telefone {
-  background: url("../Img/icones/telefone.svg") no-repeat 0 2px;
+  background: url("../img/icones/telefone.svg") no-repeat 0 2px;
   margin-bottom: 60px !important;
 }
 
