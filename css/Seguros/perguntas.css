@@ -40,7 +40,7 @@ text-align: left;
   display: inline-block;
   width: 14px;
   height: 6px;
-background: url(../../img/icones/seta-abrir.svg);
+background: url(../../public/img/icones/seta-abrir.svg);
 transition: 0.3s;
 }
 

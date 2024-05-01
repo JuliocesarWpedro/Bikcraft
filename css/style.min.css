@@ -408,7 +408,7 @@ footer a:hover {
   width: 18px;
   height: 10px;
   margin-left: 12px;
-  background: url(../img/icones/seta.svg);
+  background: url(../public/img/icones/seta.svg);
   transition: transform 0.2s;
 }
 
@@ -1321,7 +1321,7 @@ footer a:hover {
   display: inline-block;
   width: 13px;
   height: 9px;
-  background-image: url("../img/icones/lista.svg");
+  background-image: url("../public/img/icones/lista.svg");
   position: absolute;
   left: -21px;
 }
@@ -1465,7 +1465,7 @@ footer a:hover {
   display: inline-block;
   width: 14px;
   height: 6px;
-  background: url(../img/icones/seta-abrir.svg);
+  background: url(../public/img/icones/seta-abrir.svg);
   transition: 0.3s;
 }
 
@@ -1534,7 +1534,7 @@ footer a:hover {
 .contato-endereço {
   margin-bottom: 32px;
   padding-left: 28px;
-  background: url("../img/icones/local.svg") no-repeat 0 2px;
+  background: url("../public/img/icones/local.svg") no-repeat 0 2px;
 }
 
 .contato-endereço p {
@@ -1553,7 +1553,7 @@ footer a:hover {
 }
 
 .contato-meios a:first-child {
-  background: url("../img/icones/email.svg") no-repeat 0 2px;
+  background: url("../public/img/icones/email.svg") no-repeat 0 2px;
 }
 
 .contato-meios a:nth-child(2) {
@@ -1561,7 +1561,7 @@ footer a:hover {
 }
 
 .contato-meios-telefone {
-  background: url("../img/icones/telefone.svg") no-repeat 0 2px;
+  background: url("../public/img/icones/telefone.svg") no-repeat 0 2px;
   margin-bottom: 60px !important;
 }
 
@@ -1724,7 +1724,7 @@ footer a:hover {
 
 .orcamento-produto {
   border-radius: 5px 0 0 5px;
-  background: var(--cor-12) url("../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
+  background: var(--cor-12) url("../public/img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -1799,7 +1799,7 @@ footer a:hover {
 
 .orcamento-dados {
   border-radius: 0 5px 5px 0;
-  background: var(--cor-0) url("../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
+  background: var(--cor-0) url("../public/img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
 }
 
 .orcamento-conteudo {

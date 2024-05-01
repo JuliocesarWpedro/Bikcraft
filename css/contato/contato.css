@@ -35,7 +35,7 @@
 .contato-endereço {
   margin-bottom: 32px;
   padding-left: 28px;
-  background: url("../../img/icones/local.svg") no-repeat 0px 2px;
+  background: url("../../public/img/icones/local.svg") no-repeat 0px 2px;
 }
 
 .contato-endereço p {
@@ -54,7 +54,7 @@
 }
 
 .contato-meios a:first-child {
-  background: url("../../img/icones/email.svg") no-repeat 0px 2px;
+  background: url("../../public/img/icones/email.svg") no-repeat 0px 2px;
 }
 
 .contato-meios a:nth-child(2) {
@@ -62,7 +62,7 @@
 }
 
 .contato-meios-telefone {
-  background: url("../../img/icones/telefone.svg") no-repeat 0px 2px;
+  background: url("../../public/img/icones/telefone.svg") no-repeat 0px 2px;
   margin-bottom: 60px !important;
 }
 
